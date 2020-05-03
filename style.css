@@ -11,3 +11,8 @@ input[type="text"]::placeholder {
 :focus {
   outline: 2px solid;
 }
+
+select {
+  /* default olan arrow okunu kaldırmak */
+  -webkit-appearance: none;
+}
