@@ -1,0 +1,10 @@
+form {
+  width: 260px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type="text"]::placeholder {
+  background-color: red;
+  color: white;
+}

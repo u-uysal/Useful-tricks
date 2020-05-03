@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <!-- Labelı  id-for olmadan kullanmak  -->
-    <label>Merhaba<input type="text" /></label>
+    <form action="">
+      <!-- Labelı  id-for olmadan kullanmak  -->
+      <label>Merhaba<input type="text" /></label> <br />
+      <input type="text" placeholder="add name" />
 
-    <!-- input hidden ön planda gözükmesini istemediğimiz fakat arka plana göndermek 
+      <!-- input hidden ön planda gözükmesini istemediğimiz fakat arka plana göndermek 
         istediğimiz bilgileri tutar -->
-    <input type="hidden" value="secret" name="information_types" />
+      <input type="hidden" value="secret" name="information_types" />
+    </form>
   </body>
 </html>
