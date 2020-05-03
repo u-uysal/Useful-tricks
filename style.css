@@ -19,3 +19,9 @@ select {
 Sağa çek ama 10px de geri gel demek.Center zaten ortalı olduğu için bu özellik kullanılmıyor */
   background-position: right 10px center;
 }
+.radio-container {
+  margin-top: 1em;
+}
+.radio-container label + label {
+  display: inline-block;
+}
