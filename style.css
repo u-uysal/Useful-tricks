@@ -15,4 +15,7 @@ input[type="text"]::placeholder {
 select {
   /* default olan arrow okunu kaldırmak */
   -webkit-appearance: none;
+  /* Genelde resim yerleştirirken istediğimiz konuma böyle çekebiliriz.
+Sağa çek ama 10px de geri gel demek.Center zaten ortalı olduğu için bu özellik kullanılmıyor */
+  background-position: right 10px center;
 }
