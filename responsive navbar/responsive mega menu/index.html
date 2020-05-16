@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Multi Level Dropdown</title>
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Nav markup goes here-->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="menu-icons">
+            <i class="icon ion-md-menu"></i>
+            <i class="icon ion-md-close"></i>
+          </div>
+          <a href="index.html" class="logo">
+            <img src="images/SwampLogoHighResNew.jpg" alt="logo" />
+          </a>
+          <ul class="nav-list">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#home"
+                >Menu
+                <i class="icon ion-md-arrow-dropdown"></i>
+              </a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">Parça 1</a>
+                </li>
+                <li>
+                  <a href="#">Parça 2</a>
+                </li>
+                <li>
+                  <a href="#">Parça 3</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="#">Parça 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Parça 5</a>
+                    </li>
+                    <li>
+                      <a href="#">Parça 6</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#home">Products</a>
+            </li>
+            <li>
+              <a href="#home">Tutorials</a>
+            </li>
+            <li>
+              <a href="#home">About Us</a>
+            </li>
+            <!-- <li>
+              <a href="" style="margin-left: 60px; margin-right: 0;">
+                <button id="ask">Apple</button>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <button id="purchase">Sony</button>
+              </a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--End nav-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
