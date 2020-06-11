@@ -1,6 +1,8 @@
+//https://youtu.be/6N7pOqJu16Q
+
 //example 1
 
-function toCelsius(fahrenheit) {
+https: function toCelsius(fahrenheit) {
   return (5 / 9) * (fahrenheit - 32);
 }
 
@@ -23,7 +25,7 @@ function factorial(n) {
   else return n * factorial(n - 1);
 }
 
-// n = 5   5 * 24 = 120
+// n = 5   5 * factorial(4)
 //factorial (4)  = 4 * 6
 //factorial (3) = 3 * 2
 //factorial (2) = 2 * 1
