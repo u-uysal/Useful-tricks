@@ -20,3 +20,5 @@ switch (new Date().getDay()) {
     case 6:
         day = "Saturday";
 }
+
+// https://www.youtube.com/watch?v=Qfx4UCeq5cw&feature=youtu.be
