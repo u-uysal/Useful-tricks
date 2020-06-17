@@ -13,3 +13,21 @@ let {
 alert(title); // Menu
 alert(width); // 100
 alert(height); // 200
+
+
+//example 2
+
+const personalInformation = {
+    firstName: 'Dylan',
+    lastName: 'Israel',
+    city: 'Austin',
+    state: 'Texas',
+    zipCode: 73301
+};
+
+const {
+    firstName: fn, // you can use abbreviation
+    lastName: ln
+} = personalInformation;
+
+console.log(`${fn} ${ln}`);
