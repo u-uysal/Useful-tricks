@@ -27,7 +27,7 @@ const personalInformation = {
 
 const {
     firstName: fn, // you can use abbreviation
-    lastName: ln
+    lastName: ln // get "lastName" field from "personalInformation"  object and assign "ln" variable
 } = personalInformation;
 
 console.log(`${fn} ${ln}`);
